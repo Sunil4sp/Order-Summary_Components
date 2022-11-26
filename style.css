@@ -1,0 +1,180 @@
+@media (max-width: 320px){
+    
+    div{
+        left: 0px;
+        margin: 0px;
+        top: 0px;
+        width: auto;
+        height: auto;
+    }
+    .container{
+        width: 318px;
+    }
+}
+@media (min-width: 481px) {
+    div{
+        width: auto;
+        height: auto;
+    }
+}
+.main{
+    background: url('images/pattern-background-desktop.svg');
+    width: 100%;
+    height: 650px;
+    position: relative;
+    border: 1px transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 380px;
+    height: 600px;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    border: 1px transparent; 
+    top: 30px;
+    position: absolute;
+    box-sizing: border-box;
+}
+.first img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-sizing: border-box;
+    width: 380px;
+    height: auto;
+    position: absolute;
+    max-width: 100%;
+}
+.sec{
+    background-color: white;
+    width: 380px;
+    height: 403px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 186px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+h3{
+    font-weight: bolder;
+    font-family: Bahnschrift SemiBold;
+    text-align: center;
+    font-size: 3ch;
+    color: rgb(22, 37, 72);
+    top: 10px;
+}
+.text{
+    color: rgb(134, 138, 164);
+    padding: 0px 30px 5px 30px;
+    text-align: center;
+    font-size: 1.7ch;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+.middle{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    width: 300px;
+    height: 80px;
+    margin-left: 40px;
+    background-color:rgba(248, 249, 254);
+    box-sizing: border-box;
+    border: 1px transparent;
+    border-radius: 10px;
+    padding: 15px;
+}
+.item1{
+    display: flex;
+    align-items:center;
+    justify-items: center;
+    padding-right: 20px;
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 45px;
+    width: 200px;
+ }
+.item3{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: fit-content;
+    height: auto;
+}
+.item1 img{
+    width: 50px;
+    height: auto;
+    align-self:center;
+}
+.text1{
+    text-align: left;
+    padding: 5px 0px 0px 0px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    color: rgb(22, 37, 72);
+    font: 16px Franklin Gothic Medium;
+}
+.price{
+    color: darkgray;
+    text-align: left;
+    padding: 0px;
+    font: 1em Arial Rounded MT Bold;
+}
+#foot{
+    display: flex;
+    flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 18px;
+    height: 120px;
+}
+.link1{
+    width: 270px;
+    height: 40px;
+    margin: 0px 50px 20px 50px;
+    display: block;
+    text-decoration: none;
+    background-color: rgb(56, 42, 225);
+    color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 0px;
+    text-align: center;
+    padding: 8px;
+}
+.link2{
+    color:darkgrey;
+    width: 270px;
+    height: 40px;
+    margin: 10px 50px 0px 50px; 
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0px;
+    text-align: center;
+}
+
+a.link2:hover{
+    color: rgb(22, 37, 72);
+}
+
+a.ch{ 
+    color: rgb(62, 47, 184);
+    font: 1.1em Liberation Sans;
+}
